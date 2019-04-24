@@ -6,6 +6,7 @@
 print("Enter your name/word to find all words that can be built from it: ")
 master_str = input()
 english_dictionary_file = open("words_alpha.txt")
+# This file should get replaced with a better dictionary of real words
 english_dictionary = english_dictionary_file.read().splitlines()
 
 def fn_get_letters_dict(word):
