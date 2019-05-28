@@ -1,6 +1,7 @@
 def largestRange(array):
     # Write your code here.
 	# Sort it, then determine longest continuation?
+	# To improve this, could use a dictionary and iterate through keys
 	array.sort()
 	max_range_len = 0
 	max_range_start = 0
